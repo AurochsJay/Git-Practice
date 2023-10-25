@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class kangminscript : MonoBehaviour
 {
+
     [SerializeField] private Rigidbody rigidBody;
 
 
@@ -20,4 +21,11 @@ public class kangminscript : MonoBehaviour
         rigidBody.AddForce(direction);
         rigidBody.velocity *= 2f * Time.deltaTime;
     }
+
+    //�̰��� �����̰� ������� ��ũ��Ʈ
+    //���� �������� �ʾҰ���
+    //�˼� ���� ��ũ��Ʈ�� ���������߰ڴ�.
+    //������ �����ֱ���
+    //������
+
 }
