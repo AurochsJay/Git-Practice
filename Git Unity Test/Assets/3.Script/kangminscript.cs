@@ -31,5 +31,11 @@ public class kangminscript : MonoBehaviour
         return;
     }
 
+    public float ChangeFloat(float a, float b)
+    {
+        float something = a + b;
+        return something;
+    }
+
 
 }
