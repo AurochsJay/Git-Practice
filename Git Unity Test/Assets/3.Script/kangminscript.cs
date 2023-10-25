@@ -22,5 +22,11 @@ public class kangminscript : MonoBehaviour
         rigidBody.velocity *= 2f * Time.deltaTime;
     }
 
+    public float ChangeFloat(float a, float b)
+    {
+        float something = a + b;
+        return something;
+    }
+
 
 }
