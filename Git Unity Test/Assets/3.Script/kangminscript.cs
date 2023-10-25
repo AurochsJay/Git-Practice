@@ -22,6 +22,8 @@ public class kangminscript : MonoBehaviour
         rigidBody.velocity *= 2f * Time.deltaTime;
     }
 
+    //asfasdfasdfasdfasd;
+
     //�̰��� �����̰� ������� ��ũ��Ʈ
     //���� �������� �ʾҰ���
     //�˼� ���� ��ũ��Ʈ�� ���������߰ڴ�.
