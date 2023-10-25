@@ -21,6 +21,7 @@ public class kangminscript : MonoBehaviour
         rigidBody.AddForce(direction);
         rigidBody.velocity *= 2f * Time.deltaTime;
         direction = new Vector3(1f, 3f, 11f);
+
     }
 
     public float ChangeFloat(float a, float b)
