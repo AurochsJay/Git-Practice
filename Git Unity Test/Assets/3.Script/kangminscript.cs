@@ -17,9 +17,18 @@ public class kangminscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = new Vector3(1f, 2f, 3f);
+        Vector3 direction = new Vector3(3f, 6f, 9f);
         rigidBody.AddForce(direction);
-        rigidBody.velocity *= 2f * Time.deltaTime;
+        rigidBody.velocity *= 0xAf * Time.deltaTime;
+    }
+
+    void test()
+    {
+        float abc;
+        abc*=23;
+        // i boom
+
+        return;
     }
 
 
